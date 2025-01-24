@@ -1,0 +1,93 @@
+.ventajas{
+    background-color: #F1F6FF;
+
+    .btn-1 {
+        padding-left: 25px;
+        .c-fa{
+            animation: c_keyframe_2 2s;
+                    -webkit-animation: c_keyframe_2 2s;
+                    -moz-animation: c_keyframe_2 2s;
+                    animation-iteration-count: infinite;
+                    -webkit-animation-iteration-count: infinite;
+                    -moz-animation-iteration-count: infinite;
+        }
+    }
+
+    
+    .slider{
+        .item{
+            padding: 25px;
+            .c-block{
+                padding: 20px;
+                border-radius: 10px;
+                transition: 0.3s;
+                &:hover{
+                    background-color: #FFF;
+                }
+                img{
+                    max-height: 70px;
+                    margin-bottom: 15px;
+                }
+                h3{
+                    color: #778299;
+                    font-family: 'IBMPlexSans-SemiBold';  
+                    font-size: 1rem;
+                    display: inline;
+                    span{
+                        color: $COLOR_1;
+                        font-family: 'IBMPlexSans-SemiBoldItalic'; 
+                    }
+                }
+                p{
+                    display: inline;
+                    font-size: .9rem;
+                    span{
+                        color: $COLOR_1;
+                    }
+                }
+            }
+        }
+    }
+    .slick-dots {
+        li {
+            button {
+                &::before {
+                    background-color: #000;
+                    border-radius: 50%;
+                    width: 13px;
+                    height: 13px;
+                    content: '';
+                    transition: 0.3s;
+                }
+            }
+
+            &.slick-active {
+                button {
+                    &::before {
+                        background-color: $COLOR_1;
+                        opacity: 1 !important;
+                        width: 25px;
+                        border-radius: 8px;
+                        margin-left: -5px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}

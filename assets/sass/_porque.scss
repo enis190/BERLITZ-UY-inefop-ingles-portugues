@@ -1,0 +1,69 @@
+.porque {
+    .titulo-1{
+        text-align: left;
+    }
+    .accordion{
+        .accordion-body{
+            
+        }
+    }
+    .accordion {
+
+        .accordion-item {
+            border:0px;
+            .accordion-button {
+                background-color: transparent;
+                font-family: 'IBMPlexSans-SemiBold'; 
+                color: #000;
+                font-size: 1.2rem;
+                box-shadow: none;
+                &:focus { 
+                    outline: none !important; 
+                    outline-width: 0 !important; 
+                    box-shadow: none; 
+                    -moz-box-shadow: none; 
+                    -webkit-box-shadow: none; 
+                }
+                &::after{
+                    border:1px solid #B7BECA;
+                    width: 35px;
+                    height: 35px;
+                    border-radius: 50%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    background-position: center center; /* Centra la imagen */
+                    // background-image:url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23FFFFFF'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+                }
+            }
+            .accordion-body{
+                border-bottom: 1px solid #DEE0E3;
+                p{
+                    span{
+                        color: $COLOR_1;
+                        &.black{
+                            color: #000;
+                            font-family: 'IBMPlexSans-Regular'; 
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}
