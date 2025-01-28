@@ -871,7 +871,7 @@ if ($cintillo_contador == true) {
                             pageName: "Berlitz Uruguay - Grupales",
 
 
-                            redirectUrl: "https:\/\/berlitz-marketing.com.uy/\/gracias-inefop",
+                            redirectUrl: "https:\/\/berlitz-marketing.com.uy/\/gracias-subsidio",
 
 
 
