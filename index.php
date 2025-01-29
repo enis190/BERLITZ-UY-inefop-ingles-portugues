@@ -780,12 +780,12 @@ if ($cintillo_contador == true) {
                 if ($banner_promo_black_friday == true) {
                 ?>
                     <picture>
-                        <source srcset="https://9068661.fs1.hubspotusercontent-na1.net/hubfs/9068661/assets/img/SECTION%20BANNER%20PROMO.png" type="image/png">
-                        <img class="img-fluid d-none d-sm-block" data-src="https://9068661.fs1.hubspotusercontent-na1.net/hubfs/9068661/assets/img/SECTION%20BANNER%20PROMO.png" loading="lazy">
+                        <source srcset="https://9068661.fs1.hubspotusercontent-na1.net/hubfs/9068661/assets/img/SECTION%20BANNER%20PROMO-1.png" type="image/png">
+                        <img class="img-fluid d-none d-sm-block" data-src="https://9068661.fs1.hubspotusercontent-na1.net/hubfs/9068661/assets/img/SECTION%20BANNER%20PROMO-1.png" loading="lazy">
                     </picture>
                     <picture>
-                        <source srcset="https://9068661.fs1.hubspotusercontent-na1.net/hubfs/9068661/assets/img/SECTION%20BANNER%20PROMO.png" type="image/png">
-                        <img class="img-fluid d-block d-sm-none" data-src="https://9068661.fs1.hubspotusercontent-na1.net/hubfs/9068661/assets/img/SECTION%20BANNER%20PROMO.png" loading="lazy">
+                        <source srcset="https://9068661.fs1.hubspotusercontent-na1.net/hubfs/9068661/assets/img/SECTION%20BANNER%20PROMO-1.png" type="image/png">
+                        <img class="img-fluid d-block d-sm-none" data-src="https://9068661.fs1.hubspotusercontent-na1.net/hubfs/9068661/assets/img/SECTION%20BANNER%20PROMO-1.png" loading="lazy">
                     </picture>
                 <?php
                 } else {
@@ -1652,7 +1652,7 @@ if ($cintillo_contador == true) {
     <div class="container-fluid tyc">
         <div class="container c-container">
             <div class="row">
-                <div class="col-md-6 offset-md-3">
+                <div class="col-md-10 offset-md-1">
                     <div class="accordion" id="accordionExample1">
 
                         <div class="accordion-item">
@@ -1665,27 +1665,7 @@ if ($cintillo_contador == true) {
                             <div id="collapseTwo1" class="accordion-collapse collapse"
                                 data-bs-parent="#accordionExample1">
                                 <div class="accordion-body">
-                                    <ul>
-                                    <li>Modalidad online y presencial*</li>
-                                        <li>Válido hasta el
-                                    <?php
-                                    if ($fecha_legal_form_black_friday == true) {
-                                        echo '31/01/2025.';
-                                    } else {
-                                        echo '31/12/2024.';
-                                    }
-                                    ?>
-                                    </li>
-                                    
-                                    <li>En Berlitz estamos comprometidos en garantizar tu aprendizaje con el idioma. Es
-                                    importante tener en cuenta las siguientes características del Programa Grupal: los
-                                    grupos están formados por un mínimo de 5 y un máximo de 6 personas de un mismo
-                                    nivel. Tanto la fecha de inicio como la de fin del programa son fijas e inamovibles.
-                                    No es posible reprogramar ni pausar las clases . En caso de que un alumno deje de
-                                    asistir por causas ajenas a Berlitz, no podrá solicitar la devolución.</li>
-                                    </ul>
-                                    *Sujeto a disponibilidad
-                                    <br><br>
+                                La postulación al subsidio se realizará a través de la página <a style="color: #FFF;" href="https://www.inefop.uy" target="_blank">https://www.inefop.uy</a> y está sujeta a condiciones y restricciones por parte de INEFOP, que serán detalladas durante el proceso de aplicación. La postulación dependerá además de los cupos y niveles disponibles. Pueden postularse personas entre 18 y 65 años, desempleadas con o sin seguro de desempleo, y trabajadores en actividad con un salario menor a 15 BPC. Aplica para inicio de cursos en marzo de 2025.
 
                                     
 
