@@ -458,8 +458,8 @@ if ($cintillo_contador == true) {
             <div class="row">
                 <div class="col-12" style="padding: 0px;">
                     <a href="javascript:click_section('formulario')">
-                        <img src="https://9068661.fs1.hubspotusercontent-na1.net/hubfs/9068661/assets/img/HERO-DSK-Jan-24-2025-06-04-40-9410-PM.png" alt="" class="img-fluid d-none d-sm-block" style="width: 100%;">
-                        <img src="https://9068661.fs1.hubspotusercontent-na1.net/hubfs/9068661/assets/img/HERO-MOB-Jan-24-2025-06-04-40-6092-PM.png" alt="" class="img-fluid d-block d-sm-none"
+                        <img src="https://9068661.fs1.hubspotusercontent-na1.net/hubfs/9068661/assets/img/HERO-DSK-Jan-29-2025-08-34-15-5914-PM.png" alt="" class="img-fluid d-none d-sm-block" style="width: 100%;">
+                        <img src="https://9068661.fs1.hubspotusercontent-na1.net/hubfs/9068661/assets/img/HERO-MOB-Jan-29-2025-08-34-15-1528-PM.png" alt="" class="img-fluid d-block d-sm-none"
                             style="width: 100%;">
                     </a>
 
