@@ -1737,7 +1737,7 @@ if ($cintillo_contador == true) {
                 </div>
             </div>
             <div class="txt ">
-                Quiero <span>aplicar</span>
+                ¡Quiero <span>aplicar!</span>
 
                 <picture>
                     <source srcset="assets/img/btn-fixed-on.png" type="image/png">
