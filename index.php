@@ -868,7 +868,7 @@ if ($cintillo_contador == true) {
 
 
 
-                            pageName: "Berlitz Uruguay - Grupales",
+                            pageName: "Berlitz Uruguay - Subsidio de Inglés y Portugues",
 
 
                             redirectUrl: "https:\/\/berlitz-marketing.com.uy/\/gracias-subsidio",
