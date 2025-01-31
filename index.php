@@ -249,11 +249,11 @@
 
 
     <!-- header -->
-    <!-- <div id="header_page" class="container-fluid header">
+    <div id="header_page" class="container-fluid header">
         <div class="container mt-4">
             <div class="row">
                 <div class="col-4 col-md-2 logo">
-                    <picture>
+                    <picture class="d-block d-sm-none">
                         <source srcset="assets/img/berlitz-logo.png" type="image/png">
                         <img class="img-fluid" data-src="assets/img/berlitz-logo.png" loading="lazy">
                     </picture>
@@ -266,8 +266,8 @@
                 </div>
             </div>
         </div>
-    </div> -->
-    <!-- end header -->
+    </div>
+    <!-- end header
 
     <!-- menu xs -->
     <div id="div_menu_xs" class="container menu-xs ">
@@ -277,7 +277,7 @@
                     <i id="btn-menu-xs-cerrar" class="fa-solid fa-circle-xmark fa-cmln"></i>
                 </div>
                 <div class="col-12 item ">
-                    <a href="javascript:click_section('promos')" class="i_menu menu_1 ">Promociones</a>
+                    <a href="javascript:click_section('promos')" class="i_menu menu_1 ">Requisitos</a>
                 </div>
                 <div class="col-12 item ">
                     <a href="javascript:click_section('viaje')" class="i_menu menu_2 ">plan de aprendizaje</a>
@@ -302,7 +302,7 @@
                         inglés</a>
                 </div>
                 <div class="col-12 item ">
-                    <a href="javascript:click_section('formulario')" class="i_menu menu_9 ">Registrarme</a>
+                    <a href="javascript:click_section('formulario')" class="i_menu menu_9 ">¡Quiero aplicar!</a>
                 </div>
             </div>
         </div>
@@ -459,7 +459,7 @@ if ($cintillo_contador == true) {
                 <div class="col-12" style="padding: 0px;">
                     <a href="javascript:click_section('formulario')">
                         <img src="https://9068661.fs1.hubspotusercontent-na1.net/hubfs/9068661/assets/img/HERO-DSK-Jan-29-2025-08-34-15-5914-PM.png" alt="" class="img-fluid d-none d-sm-block" style="width: 100%;">
-                        <img src="https://9068661.fs1.hubspotusercontent-na1.net/hubfs/9068661/assets/img/HERO-MOB-Jan-29-2025-08-34-15-1528-PM.png" alt="" class="img-fluid d-block d-sm-none"
+                        <img src="https://9068661.fs1.hubspotusercontent-na1.net/hubfs/9068661/assets/img/HERO-MOB%20(1).png" alt="" class="img-fluid d-block d-sm-none"
                             style="width: 100%;">
                     </a>
 
@@ -748,7 +748,7 @@ if ($cintillo_contador == true) {
             <div class="row">
                 <div class="col-12">
                     <ul>
-                        <li><a href="javascript:click_section('promos')" class="i_menu menu_1 ">Promociones</a></li>
+                        <li><a href="javascript:click_section('promos')" class="i_menu menu_1 ">Requisitos</a></li>
                         <li><a href="javascript:click_section('viaje')" class="i_menu menu_2 ">plan de aprendizaje</a>
                         </li>
                         <li><a href="javascript:click_section('acerca')" class="i_menu menu_3 ">programa</a></li>
@@ -760,7 +760,7 @@ if ($cintillo_contador == true) {
                         </li>
                         <li><a href="javascript:click_section('ventajas')" class="i_menu menu_8 ">Ventajas de aprender
                                 inglés</a></li>
-                        <li><a href="javascript:click_section('formulario')" class="i_menu menu_9 azul">Registrarme</a>
+                        <li><a href="javascript:click_section('formulario')" class="i_menu menu_9 azul">¡Quiero aplicar!</a>
                         </li>
                     </ul>
                 </div>

@@ -914,7 +914,10 @@ p {
     width: 380px !important;
     height: auto !important; }
   .cmln-slider .legal {
-    font-size: .8rem !important; } }
+    font-size: .8rem !important; }
+
+  .banner_principal_temp {
+    margin-top: 50px; } }
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
   .cmln-slider .tp-caption.caption-2 h3.modalidad .txt subt {
@@ -1397,7 +1400,6 @@ p {
   .formulario .c-hs-form {
     z-index: 1; }
   .formulario .txt::before {
-    content: url("../img/bg_1.png");
     position: absolute;
     height: 50px;
     width: 50px;
@@ -1557,6 +1559,9 @@ p {
       transform: scale(0.4); }
   .formulario .txt p.completa {
     text-align: center; } }
+@media only screen and (max-width: 767px) and (orientation: landscape) {
+  .formulario .txt {
+    padding-top: 50px; } }
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
   .formulario .txt h2 span::before {
@@ -1564,6 +1569,9 @@ p {
     margin-top: -10px;
     transform: scale(0.4); } }
 /* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .formulario .txt {
+    padding-top: 90px; } }
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
   .formulario .txt h2 span::before {
