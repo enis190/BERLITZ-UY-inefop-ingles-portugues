@@ -290,3 +290,8 @@ $(document).ready(function () {
     });
 });
 
+/**BG VIDEO SLIDER */
+document.getElementById("bg_video").onload = function () {
+  this.style.opacity = "1";
+  document.querySelector(".cmln-slider-video").style.background = "none";
+};

@@ -1,0 +1,150 @@
+.textimonio2 {
+  padding-top: 70px;
+  padding-bottom: 70px;
+  background-color: #eff6ff;
+
+  //background-size: 100% 100%;
+  background-size: cover;
+  background-position: center;
+  h2{
+    color: #002691;
+    font-family: 'IBMPlexSans-Bold'; 
+  }
+  h4 {
+    color: #002691;
+    font-family: 'IBMPlexSans-Regular';
+    font-size: 1.1rem;
+  }
+
+  .c-play {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .c-pulse-1,
+  .c-pulse-2,
+  .c-pulse-3 {
+    background-color: $COLOR_1;
+    content: "";
+    position: absolute;
+    display: flex;
+    width: 70px;
+    height: 70px;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+    -webkit-box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.6);
+    -moz-box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.6);
+    -ms-box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.6);
+    -o-box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.6);
+    box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.6);
+    -webkit-animation: ripple 3s infinite;
+    -moz-animation: ripple 3s infinite;
+    -ms-animation: ripple 3s infinite;
+    -o-animation: ripple 3s infinite;
+    animation: ripple 3s infinite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .c-fa {
+      font-size: 1.3rem;
+      color: #fff;
+    }
+  }
+  .c-pulse-2 {
+    -webkit-animation-delay: 0.9s;
+    -moz-animation-delay: 0.9s;
+    -ms-animation-delay: 0.9s;
+    -o-animation-delay: 0.9s;
+    animation-delay: 0.9s;
+  }
+
+  .c-pulse-3 {
+    -webkit-animation-delay: 0.6s;
+    -moz-animation-delay: 0.6s;
+    -ms-animation-delay: 0.6s;
+    -o-animation-delay: 0.6s;
+    animation-delay: 0.6s;
+  }
+}
+
+@-webkit-keyframes ripple {
+    70% {
+      box-shadow: 0 0 0 50px rgba(253, 167, 0, 0);
+    }
+  
+    100% {
+      box-shadow: 0 0 0 0 rgba(253, 167, 0, 0);
+    }
+  }
+  
+  @keyframes ripple {
+    70% {
+      box-shadow: 0 0 0 50px rgba(253, 167, 0, 0);
+    }
+  
+    100% {
+      box-shadow: 0 0 0 0 rgba(253, 167, 0, 0);
+    }
+  }
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .textimonio2{
+    .c-play {
+      height: 200px;
+      background-image: url('../img/bg-video-2-xs.png');
+      background-size:cover;
+    }
+  }
+}
+
+@media screen and (max-width: 767px) and (orientation: landscape) {
+  /* Estilos específicos para celulares en horizontal */
+  .textimonio2{
+    .c-play {
+      height: 250px;
+      background-image: url('../img/bg-video-2-xs.png');
+      background-size:cover;
+    }
+  }
+}
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .textimonio2 {
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background-image: url("../img/bg-video-2.png");
+    position: relative;
+    &::after{
+      position: absolute;
+      top: 50px;
+      left: 50px;
+      content: url(../img/after-video.png);
+      scale: 0.8;
+    }
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+}

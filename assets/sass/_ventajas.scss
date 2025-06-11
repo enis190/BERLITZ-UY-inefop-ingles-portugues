@@ -21,11 +21,12 @@
                 padding: 20px;
                 border-radius: 10px;
                 transition: 0.3s;
+                background-color: #FFF;
                 &:hover{
                     background-color: #FFF;
                 }
                 img{
-                    max-height: 70px;
+                    max-height: 120px;
                     margin-bottom: 15px;
                 }
                 h3{

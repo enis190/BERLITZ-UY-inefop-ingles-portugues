@@ -76,7 +76,7 @@
 
 </head>
 
-<body onload="loaded();">
+<body onload="">
 
     <!-- Google Tag Manager (noscript) -->
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PGFZW8S" height="0" width="0"
@@ -252,10 +252,10 @@
     <div id="header_page" class="container-fluid header">
         <div class="container mt-4">
             <div class="row">
-                <div class="col-4 col-md-2 logo">
+                <div class="col-8 col-md-2 logo">
                     <picture class="d-block d-sm-none">
-                        <source srcset="assets/img/berlitz-logo.png" type="image/png">
-                        <img class="img-fluid" data-src="assets/img/berlitz-logo.png" loading="lazy">
+                        <source srcset="assets/img/logo_inefop.png" type="image/png">
+                        <img class="img-fluid" data-src="assets/img/logo_inefop.png" loading="lazy">
                     </picture>
                 </div>
                 <div class="col-md-5 offset-md-3 call">
@@ -267,7 +267,7 @@
             </div>
         </div>
     </div>
-    <!-- end header
+    <!-- end header-->
 
     <!-- menu xs -->
     <div id="div_menu_xs" class="container menu-xs ">
@@ -312,7 +312,7 @@
 
     <?php
 
-if ($cintillo_contador == true) {
+    if ($cintillo_contador == true) {
     ?>
 
         <style>
@@ -433,7 +433,7 @@ if ($cintillo_contador == true) {
         </div>
         <!-- end header -->
 
-        <?php
+    <?php
     }
     if ($banner_principal_black_friday == true) {
     ?>
@@ -449,12 +449,12 @@ if ($cintillo_contador == true) {
             </div>
         </div>
 
-        <?php
+    <?php
     }
     if ($banner_principal_black_friday == true) {
     ?>
         <!-- <div class="container-fluid banner_principal_temp c-banner-black-friday"> -->
-        <div class="container-fluid banner_principal_temp">
+        <!-- <div class="container-fluid banner_principal_temp">
             <div class="row">
                 <div class="col-12" style="padding: 0px;">
                     <a href="javascript:click_section('formulario')">
@@ -504,7 +504,7 @@ if ($cintillo_contador == true) {
                 }
 
             }
-        </style>
+        </style> -->
         <!-- <div class="container-fluid cta-otra-lp">
             <div class="row">
                 <div class="col-12 text-center">
@@ -514,6 +514,67 @@ if ($cintillo_contador == true) {
                 </div>
             </div>
         </div> -->
+
+        <div class="container-fluid d-block d-sm-none logo-subsidio-xs">
+            <div class="row">
+                <div class="col-md-12 p-0">
+                    <center>
+                        <img src="assets/img/logo_subsidio_xs.png" alt="" class="img-fluid">
+                    </center>
+                </div>
+            </div>
+        </div>
+        <div
+            id="slider_page"
+            class="container-fluid cmln-slider cmln-slider-video cmln-slider-video-xs">
+            <iframe
+                id="bg_video"
+                src="https://www.youtube.com/embed/QpJxABtHPus?autoplay=1&mute=1&loop=1&playlist=QpJxABtHPus&controls=0&showinfo=0&modestbranding=1"
+                frameborder="0"
+                allow="autoplay; encrypted-media"
+                allowfullscreen></iframe>
+
+            <div class="content-bg"></div>
+            <div class="content">
+                <div class="container">
+                    <div class="row head">
+                        <div class="col-sm-6 logo-1">
+                            <img src="assets/img/logo_inefop.png" alt="" />
+                        </div>
+                        <div class="col-sm-6 logo-2">
+                            <img src="assets/img/logo_subsidio.png" alt="" />
+                        </div>
+                    </div>
+                    <div class="row body">
+                        <div class="col-sm-6 col-md-6 offset-sm-3 offset-md-3 text-center">
+                            <div class="c-caption-1">
+                                <!-- <img
+                                    class="logo d-block d-sm-none"
+                                    src="assets/img/otg-logo.png"
+                                    loading="lazy" /> -->
+                                <h1>
+                                    El mate nos une,
+                                    <span>el idioma nos <font>conecta</font></span>
+                                </h1>
+                                <p>con <font>mejores oportunidades</font>
+                                </p>
+                            </div>
+                            <div class="c-caption-2">
+                                <div class="c-cta">
+                                    <a href="javascript:click_section('formulario')" class="cta-1 d-block d-sm-none d-md-block">¡Quiero aplicar!</a>
+                                    <a href="javascript:click_section_sm('formulario')" class="cta-1 d-none d-sm-block d-md-none">¡Quiero aplicar!</a>
+                                </div>
+                                <!-- <div class="c-cta">
+                  <a href="javascript:click_section('financimiento')" class="cta-2">Aprovecha el precio preventa</a>
+                </div> -->
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
 
     <?php
 
@@ -719,7 +780,7 @@ if ($cintillo_contador == true) {
     ?>
 
 
-    <div class="reconocimiento container-fluid">
+    <!-- <div class="reconocimiento container-fluid">
         <div class="row">
             <div class="col-12 fade-in" data-delay="300" data-duration="500" style="padding: 0px;margin-top: 2px;">
                 <picture>
@@ -740,7 +801,7 @@ if ($cintillo_contador == true) {
                 </picture>
             </div>
         </div>
-    </div>
+    </div> -->
 
     <!-- MENU -->
     <div class="container-fluid c-menu d-none d-lg-block">
@@ -776,7 +837,7 @@ if ($cintillo_contador == true) {
         <div class="row">
             <div class="col-12 fade-in" data-delay="300" data-duration="500">
 
-            <?php
+                <?php
                 if ($banner_promo_black_friday == true) {
                 ?>
                     <picture>
@@ -791,17 +852,17 @@ if ($cintillo_contador == true) {
                 } else {
                 ?>
                     <picture>
-                    <source srcset="assets/img/promociones.png" type="image/png">
-                    <img class="img-fluid d-none d-sm-block" data-src="assets/img/promociones.png" loading="lazy">
-                </picture>
-                <picture>
-                    <source srcset="assets/img/promociones-xs.png" type="image/png">
-                    <img class="img-fluid d-block d-sm-none" data-src="assets/img/promociones-xs.png" loading="lazy">
-                </picture>
+                        <source srcset="assets/img/promociones.png" type="image/png">
+                        <img class="img-fluid d-none d-sm-block" data-src="assets/img/promociones.png" loading="lazy">
+                    </picture>
+                    <picture>
+                        <source srcset="assets/img/promociones-xs.png" type="image/png">
+                        <img class="img-fluid d-block d-sm-none" data-src="assets/img/promociones-xs.png" loading="lazy">
+                    </picture>
                 <?php
                 }
                 ?>
-                
+
             </div>
         </div>
     </div>
@@ -829,7 +890,7 @@ if ($cintillo_contador == true) {
                         <?php
                         } else {
                         ?>
-                                <!-- <div class="det">Tu curso grupal hasta con:</div>
+                            <!-- <div class="det">Tu curso grupal hasta con:</div>
                             <span>33 <div class="dscto">
                                     <div class="simbolo">%</div> dscto.
                                 </div></span> -->
@@ -939,14 +1000,13 @@ if ($cintillo_contador == true) {
 
 
     <!-- VIAJE -->
-    <div id="contenido_2" class="container-fluid c-container viaje">
+    <!-- <div id="contenido_2" class="container-fluid c-container viaje">
         <div class="container">
             <div class="row c-head text-center fade-in">
                 <div class="col-12">
                     <h2>Comenzá tu viaje lingüístico con <div class="d-none">Berlitz</div>
                         <div class="c-img">
                             <picture>
-                                <!-- <source srcset="assets/img/logo.webp" type="image/webp"> -->
                                 <source srcset="assets/img/berlitz-logo-2.png" type="image/png">
                                 <img class="img-fluid" data-src="assets/img/berlitz-logo-2.png" loading="lazy">
                             </picture>
@@ -960,7 +1020,6 @@ if ($cintillo_contador == true) {
                     class="col-6 offset-3 col-sm-6 offset-sm-3 col-lg-4 offset-lg-0 v2 fade-in mt-4 mt-md-0 order-1 order-sm-1 order-md-1">
                     <center>
                         <picture>
-                            <!-- <source srcset="assets/img/img-body-viaje.webp" type="image/webp"> -->
                             <source srcset="assets/img/img-body-viaje.png" type="image/png">
                             <img class="img-fluid" data-src="assets/img/img-body-viaje.png" loading="lazy">
                         </picture>
@@ -976,13 +1035,11 @@ if ($cintillo_contador == true) {
                                 <div class="col-7 icon d-none d-md-block">
                                     <div class="d-block c-block">
                                         <picture>
-                                            <!-- <source srcset="assets/img/logo.webp" type="image/webp"> -->
                                             <source srcset="assets/img/icon-viaje-1.png" type="image/png">
                                             <img class="img-fluid img-init" data-src="assets/img/icon-viaje-1.png"
                                                 loading="lazy">
                                         </picture>
                                         <picture>
-                                            <!-- <source srcset="assets/img/logo.webp" type="image/webp"> -->
                                             <source srcset="assets/img/icon-viaje-1-hover.png" type="image/png">
                                             <img class="img-fluid img-hover"
                                                 data-src="assets/img/icon-viaje-1-hover.png" loading="lazy">
@@ -1012,13 +1069,11 @@ if ($cintillo_contador == true) {
                                 <div class="col-7 icon d-none d-md-block">
                                     <div class="d-block c-block">
                                         <picture>
-                                            <!-- <source srcset="assets/img/logo.webp" type="image/webp"> -->
                                             <source srcset="assets/img/icon-viaje-2.png" type="image/png">
                                             <img class="img-fluid img-init" data-src="assets/img/icon-viaje-2.png"
                                                 loading="lazy">
                                         </picture>
                                         <picture>
-                                            <!-- <source srcset="assets/img/logo.webp" type="image/webp"> -->
                                             <source srcset="assets/img/icon-viaje-2-hover.png" type="image/png">
                                             <img class="img-fluid img-hover"
                                                 data-src="assets/img/icon-viaje-2-hover.png" loading="lazy">
@@ -1049,13 +1104,11 @@ if ($cintillo_contador == true) {
                                 <div class="col-7 icon d-none d-md-block">
                                     <div class="d-block c-block">
                                         <picture>
-                                            <!-- <source srcset="assets/img/logo.webp" type="image/webp"> -->
                                             <source srcset="assets/img/icon-viaje-3.png" type="image/png">
                                             <img class="img-fluid img-init" data-src="assets/img/icon-viaje-3.png"
                                                 loading="lazy">
                                         </picture>
                                         <picture>
-                                            <!-- <source srcset="assets/img/logo.webp" type="image/webp"> -->
                                             <source srcset="assets/img/icon-viaje-3-hover.png" type="image/png">
                                             <img class="img-fluid img-hover"
                                                 data-src="assets/img/icon-viaje-3-hover.png" loading="lazy">
@@ -1076,7 +1129,7 @@ if ($cintillo_contador == true) {
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
     <!-- END VIAJE -->
 
 
@@ -1331,7 +1384,7 @@ if ($cintillo_contador == true) {
 
 
             <!-- CTA2 -->
-            <div class="d-block banner-cta-2">
+            <!-- <div class="d-block banner-cta-2">
                 <div class="row">
                     <div class="col-md-8 offset-md-2">
                         <p class="titulo">¿Estás list@ para un año de logros y avances? </p>
@@ -1343,7 +1396,7 @@ if ($cintillo_contador == true) {
                         <p class="mt-4"><b>Con Berlitz, vos decidís la manera de crecer.</b></p>
                     </div>
                 </div>
-            </div>
+            </div> -->
             <!-- END CTA2 -->
 
 
@@ -1353,6 +1406,78 @@ if ($cintillo_contador == true) {
     <!-- END NIVELES -->
 
 
+
+
+    
+
+
+
+    <!-- TESTIMONIOS -->
+    <!-- <div id="contenido_6" class="container-fluid  testimonio fade-in">
+        <div class="container c-container">
+            <div class="row testimonios">
+                <div class="col-md-4 txt">
+                    <h2 class="titulo-1">Berlitz y su efecto en los estudiantes</h2>
+                    <p class="sup">Descubrí las <span>historias inspiradoras de profesionales</span> como vos que
+                        transformaron su
+                        carrera y su vida con <span>Berlitz</span>.</p>
+                    <p>Cada testimonio es un reflejo de cómo el dominio del
+                        inglés puede abrir puertas a nuevas oportunidades y elevar tu potencial profesional.</p>
+                </div>
+                <div class="col-md-7 offset-md-1 ">
+                    
+
+                    <div class="d-block c-block laptop-cont">
+                        <div class="youtube-prev active">
+                            
+                            <iframe
+                                src="https://www.youtube.com/embed/hd1t7-LfAKc?autoplay=1&amp;autohide=1&amp;border=0&amp;wmode=opaque&amp;enablejsapi=1"
+                                style="margin: 0px auto; border: none; display: block;"></iframe>
+                        </div>
+                        <div class="youtube">
+                            0000
+                        </div>
+                        <div class="img-laptop">
+                            <picture>
+                                <source srcset="assets/img/bg-laptop.png" type="image/png">
+                                <img class="img-fluid" data-src="assets/img/bg-laptop.png" loading="lazy">
+                            </picture>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </div> -->
+    <div id="contenido_6" class="container-fluid testimonios textimonio2">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h2 class="titulo-1">Con Berlitz, </h2>
+                    <h4>
+                        aprendé el idioma que tu vida necesita, a través de un curso 100% subsidiado*.<br>
+                        ¡Cambiá tu historia!
+                    </h4>
+                    <!-- <p>
+                        Cada testimonio es un viaje único de aprendizaje, diversión y
+                        descubrimiento. Nuestros alumnos comparten cómo el aprendizaje del
+                        inglés ha enriquecido sus vidas.
+                    </p> -->
+                </div>
+                <div class="col-md-6 offset-md-2 c-play">
+                    <a href="#" data-toggle="modal" data-target="#exampleModal">
+                        <div class="c-pulse-1"></div>
+                        <div class="c-pulse-2"></div>
+                        <div class="c-pulse-3">
+                            <i class="fa-solid fa-play c-fa"></i>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- END TESTIMONIOS -->
 
 
     <!-- METODO -->
@@ -1406,77 +1531,13 @@ if ($cintillo_contador == true) {
     <!-- END METODO -->
 
 
-
-    <!-- TESTIMONIOS -->
-    <div id="contenido_6" class="container-fluid  testimonio fade-in">
-        <div class="container c-container">
-            <div class="row testimonios">
-                <div class="col-md-4 txt">
-                    <h2 class="titulo-1">Berlitz y su efecto en los estudiantes</h2>
-                    <p class="sup">Descubrí las <span>historias inspiradoras de profesionales</span> como vos que
-                        transformaron su
-                        carrera y su vida con <span>Berlitz</span>.</p>
-                    <p>Cada testimonio es un reflejo de cómo el dominio del
-                        inglés puede abrir puertas a nuevas oportunidades y elevar tu potencial profesional.</p>
-                </div>
-                <div class="col-md-7 offset-md-1 ">
-                    <!-- <div class="d-block c-block laptop-cont">
-                        <div class="youtube-prev active">
-                            <span class="bg-prev">
-                                <span class="btn-video pulse" id="btn_youtube">
-                                    <i class="fa-solid fa-play fa-c"></i>
-                                </span>
-                            </span>
-                        </div>
-                        <div class="youtube"><span>
-                                <div id="player"></div>
-
-                            </span></div>
-                        <div class="img-laptop">
-                            <picture>
-                                <source srcset="assets/img/bg-laptop.png" type="image/png">
-                                <img class="img-fluid" data-src="assets/img/bg-laptop.png" loading="lazy">
-                            </picture>
-                        </div>
-                    </div> -->
-
-                    <div class="d-block c-block laptop-cont">
-                        <div class="youtube-prev active">
-                            <!-- <div class="youtube" id="hd1t7-LfAKc"
-                                    style=" margin:0 auto; display:block; border:none">
-                                </div> -->
-                            <iframe
-                                src="https://www.youtube.com/embed/hd1t7-LfAKc?autoplay=1&amp;autohide=1&amp;border=0&amp;wmode=opaque&amp;enablejsapi=1"
-                                style="margin: 0px auto; border: none; display: block;"></iframe>
-                        </div>
-                        <div class="youtube">
-                            0000
-                        </div>
-                        <div class="img-laptop">
-                            <picture>
-                                <!-- <source srcset="assets/img/logo.webp" type="image/webp"> -->
-                                <source srcset="assets/img/bg-laptop.png" type="image/png">
-                                <img class="img-fluid" data-src="assets/img/bg-laptop.png" loading="lazy">
-                            </picture>
-                        </div>
-                    </div>
-
-
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- END TESTIMONIOS -->
-
-
     <!-- PORQUE -->
-    <div id="contenido_7" class="container c-container porque">
+    <!-- <div id="contenido_7" class="container c-container porque">
 
         <div class="row mt-4">
             <div class="col-6 offset-3 col-md-4 offset-md-0  fade-in order-md-1 order-2">
                 <center>
                     <picture>
-                        <!-- <source srcset="assets/img/img-body-porque.webp" type="image/webp"> -->
                         <source srcset="assets/img/img-body-porque.png" type="image/png">
                         <img class="img-fluid" data-src="assets/img/img-body-porque.png" loading="lazy">
                     </picture>
@@ -1544,18 +1605,17 @@ if ($cintillo_contador == true) {
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
     <!-- END PORQUE -->
 
 
     <!-- BANNER CTA 1 -->
-    <div class="container-fluid banner-cta-1">
+    <!-- <div class="container-fluid banner-cta-1">
         <div class="container">
             <div class="row">
                 <div class="col-md-3 col-lg-2 offset-lg-1 img">
                     <center>
                         <picture>
-                            <!-- <source srcset="assets/img/logo.webp" type="image/webp"> -->
                             <source srcset="assets/img/icon-descubre.png" type="image/png">
                             <img class="img-fluid d-none d-md-block" data-src="assets/img/icon-descubre.png"
                                 loading="lazy">
@@ -1571,7 +1631,6 @@ if ($cintillo_contador == true) {
                 <div class="col-md-2 offset-md-1 col-lg-2 offset-lg-1">
                     <center>
                         <picture>
-                            <!-- <source srcset="assets/img/logo.webp" type="image/webp"> -->
                             <source srcset="assets/img/img-b.png" type="image/png">
                             <img class="img-fluid" data-src="assets/img/img-b.png" loading="lazy">
                         </picture>
@@ -1579,7 +1638,7 @@ if ($cintillo_contador == true) {
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
     <!-- END BANNER  CTA 1 -->
 
 
@@ -1665,9 +1724,9 @@ if ($cintillo_contador == true) {
                             <div id="collapseTwo1" class="accordion-collapse collapse"
                                 data-bs-parent="#accordionExample1">
                                 <div class="accordion-body">
-                                * La postulación al subsidio se realizará a través de la página <a style="color: #FFF;" href="https://www.inefop.uy" target="_blank">https://www.inefop.uy</a> y está sujeta a condiciones y restricciones por parte de INEFOP, que serán detalladas durante el proceso de aplicación. La postulación dependerá además de los cupos y niveles disponibles. Pueden postularse personas entre 18 y 65 años, desempleadas con o sin seguro de desempleo, y trabajadores en actividad con un salario menor a 15 BPC. Aplica para inicio de cursos en marzo de 2025.
+                                    * La postulación al subsidio se realizará a través de la página <a style="color: #FFF;" href="https://www.inefop.uy" target="_blank">https://www.inefop.uy</a> y está sujeta a condiciones y restricciones por parte de INEFOP, que serán detalladas durante el proceso de aplicación. La postulación dependerá además de los cupos y niveles disponibles. Pueden postularse personas entre 18 y 65 años, desempleadas con o sin seguro de desempleo, y trabajadores en actividad con un salario menor a 15 BPC. Aplica para inicio de cursos en marzo de 2025.
 
-                                    
+
 
 
                                 </div>
@@ -1691,7 +1750,7 @@ if ($cintillo_contador == true) {
 
     <div class="container-fluid footer">
         <div class="container text-center">
-            <p>© <?php echo date("Y")?> Berlitz Corporation</p>
+            <p>© <?php echo date("Y") ?> Berlitz Corporation</p>
         </div>
     </div>
     <!--end footer -->
@@ -1750,6 +1809,36 @@ if ($cintillo_contador == true) {
 
 
 
+    <!-- Modal -->
+    <div
+        class="modal fade"
+        id="exampleModal"
+        tabindex="-1"
+        role="dialog"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel"></h5>
+                    <button
+                        type="button"
+                        class="close"
+                        data-dismiss="modal"
+                        aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <!-- <iframe width="100%" src="https://www.youtube.com/embed/P_851ZMuAmM?si=I9DIowfOIU6qsQln" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> -->
+                    <div id="player_otg_1"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
 
 
     <a href="javascript:click_section('t_header')" class="c-subir"><i class="fa fa-angle-up"></i></a>
@@ -1773,7 +1862,7 @@ if ($cintillo_contador == true) {
 
 
     <script src="assets/js/propper.min.js"></script>
-    <!-- <script src="assets/js/bootstrap.min.js"></script> -->
+    <script src="assets/js/bootstrap.min.js"></script>
     <!--to view items on reach-->
     <script src="assets/js/jquery.appear.min.js"></script>
     <!--Owl Slider-->
@@ -1807,6 +1896,86 @@ if ($cintillo_contador == true) {
     <!--custom functions and script-->
     <script src="assets/js/functions.js"></script>
     <script src="assets/js/cmln.js"></script>
+
+
+    <script>
+        // 2. This code loads the IFrame Player API code asynchronously.
+        var tag = document.createElement("script");
+
+        tag.src = "https://www.youtube.com/iframe_api";
+        var firstScriptTag = document.getElementsByTagName("script")[0];
+        firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+        // 3. This function creates an <iframe> (and YouTube player)
+        //    after the API code downloads.
+        var player1, player2;
+
+        function onYouTubeIframeAPIReady() {
+            // Primer video
+            player1 = new YT.Player("player_otg_1", {
+                width: "100%",
+                videoId: "MlinoxpFNOo",
+                events: {
+                    onStateChange: onPlayerStateChange1,
+                },
+            });
+
+            // Segundo video
+            player2 = new YT.Player("player_otg_2", {
+                width: "100%",
+                videoId: "-4mbMc6VWaU",
+                events: {
+                    onStateChange: onPlayerStateChange2,
+                },
+            });
+        }
+
+        // 4. Remove the playVideo() call in onPlayerReady
+        // These functions are no longer needed
+
+        // 5. The API calls this function when the player's state changes.
+        //    The function indicates that when playing a video (state=1),
+        //    the player should play for six seconds and then stop.
+        var done1 = false;
+        var done2 = false;
+
+        function onPlayerStateChange1(event) {
+            if (event.data == YT.PlayerState.PLAYING && !done1) {
+                done1 = true;
+            }
+        }
+
+        function onPlayerStateChange2(event) {
+            if (event.data == YT.PlayerState.PLAYING && !done2) {
+                done2 = true;
+            }
+        }
+
+        function stopVideo1() {
+            player1.stopVideo();
+        }
+
+        function stopVideo2() {
+            player2.stopVideo();
+        }
+
+        // Detectar apertura y cierre de los modales
+        $("#exampleModal").on("shown.bs.modal", function() {
+            player1.playVideo(); // Reproduce el primer video cuando se abre el primer modal
+        });
+
+        $("#exampleModal").on("hidden.bs.modal", function() {
+            stopVideo1(); // Detiene el primer video cuando se cierra el primer modal
+        });
+
+        $("#exampleModal2").on("shown.bs.modal", function() {
+            player2.playVideo(); // Reproduce el segundo video cuando se abre el segundo modal
+        });
+
+        $("#exampleModal2").on("hidden.bs.modal", function() {
+            stopVideo2(); // Detiene el segundo video cuando se cierra el segundo modal
+        });
+    </script>
 
 
 
@@ -1859,16 +2028,14 @@ if ($cintillo_contador == true) {
 
 
     <script src="assets/js/luxon.min.js"></script>
-    <script>
+    <!-- <script>
         const fechaEvento = luxon.DateTime.fromISO('2024-10-18T23:59:59', {
             zone: 'America/Montevideo'
         });
 
         function actualizarContador() {
-            // Obtener la zona horaria local del navegador del usuario
             const zonaHorariaLocal = Intl.DateTimeFormat().resolvedOptions().timeZone;
 
-            // Obtener la fecha y hora actual en la zona horaria local del navegador del usuario
             const ahora = luxon.DateTime.local().setZone(zonaHorariaLocal);
 
             const diferencia = fechaEvento.diff(ahora);
@@ -1894,7 +2061,7 @@ if ($cintillo_contador == true) {
         }
 
         setInterval(actualizarContador, 1000);
-    </script>
+    </script> -->
 
 
 
