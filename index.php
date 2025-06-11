@@ -1753,7 +1753,7 @@
                             <div id="collapseTwo1" class="accordion-collapse collapse"
                                 data-bs-parent="#accordionExample1">
                                 <div class="accordion-body">
-                                    * La postulación al subsidio se realizará a través de la página <a style="color: #FFF;" href="https://www.inefop.uy" target="_blank">https://www.inefop.uy</a> y está sujeta a condiciones y restricciones por parte de INEFOP, que serán detalladas durante el proceso de aplicación. La postulación dependerá además de los cupos y niveles disponibles. Pueden postularse personas entre 18 y 65 años, desempleadas con o sin seguro de desempleo, y trabajadores en actividad con un salario menor a 15 BPC. Aplica para inicio de cursos en marzo de 2025.
+                                    * La postulación al subsidio se realizará a través de la página <a style="color: #FFF;" href="https://www.inefop.uy" target="_blank">https://www.inefop.uy</a> y está sujeta a condiciones y restricciones por parte de INEFOP, que serán detalladas durante el proceso de aplicación. La postulación dependerá además de los cupos y niveles disponibles. Pueden postularse personas entre 18 y 65 años, desempleadas con o sin seguro de desempleo, y trabajadores en actividad con un salario menor a 15 BPC.
 
 
 
