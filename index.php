@@ -288,15 +288,16 @@
                 <div class="col-12 item ">
                     <a href="javascript:click_section('niveles')" class="i_menu menu_4 ">Niveles</a>
                 </div>
+                
+                <div class="col-12 item ">
+                    <a href="javascript:click_section('testimonios')" class="i_menu menu_6 ">Video</a>
+                </div>
                 <div class="col-12 item ">
                     <a href="javascript:click_section('metodo')" class="i_menu menu_5 ">Método</a>
                 </div>
-                <div class="col-12 item ">
-                    <a href="javascript:click_section('testimonios')" class="i_menu menu_6 ">Testimonios</a>
-                </div>
-                <div class="col-12 item ">
+                <!-- <div class="col-12 item ">
                     <a href="javascript:click_section('porque')" class="i_menu menu_7 ">¿Por qué Berlitz?</a>
-                </div>
+                </div> -->
                 <div class="col-12 item ">
                     <a href="javascript:click_section('ventajas')" class="i_menu menu_8 ">Ventajas de aprender
                         inglés</a>
@@ -533,6 +534,7 @@
                 frameborder="0"
                 allow="autoplay; encrypted-media"
                 allowfullscreen></iframe>
+            <!-- <div id="bg_video"></div> -->
 
             <div class="content-bg"></div>
             <div class="content">
@@ -810,14 +812,15 @@
                 <div class="col-12">
                     <ul>
                         <li><a href="javascript:click_section('promos')" class="i_menu menu_1 ">Requisitos</a></li>
-                        <li><a href="javascript:click_section('viaje')" class="i_menu menu_2 ">plan de aprendizaje</a>
+                        <!-- <li><a href="javascript:click_section('viaje')" class="i_menu menu_2 ">plan de aprendizaje</a> -->
                         </li>
                         <li><a href="javascript:click_section('acerca')" class="i_menu menu_3 ">programa</a></li>
                         <li><a href="javascript:click_section('niveles')" class="i_menu menu_4 ">Niveles</a></li>
-                        <li><a href="javascript:click_section('metodo')" class="i_menu menu_5 ">Método</a></li>
-                        <li><a href="javascript:click_section('testimonios')" class="i_menu menu_6 ">Testimonios</a>
+                        
+                        <li><a href="javascript:click_section('testimonios')" class="i_menu menu_6 ">Video</a>
                         </li>
-                        <li><a href="javascript:click_section('porque')" class="i_menu menu_7 ">¿Por qué Berlitz?</a>
+                        <li><a href="javascript:click_section('metodo')" class="i_menu menu_5 ">Método</a></li>
+                        <!-- <li><a href="javascript:click_section('porque')" class="i_menu menu_7 ">¿Por qué Berlitz?</a> -->
                         </li>
                         <li><a href="javascript:click_section('ventajas')" class="i_menu menu_8 ">Ventajas de aprender
                                 inglés</a></li>
@@ -1153,7 +1156,7 @@
                         <h5>
                             <!-- <div class="boulet"><i class="fa-light fa-check c-fa"></i></div> -->
                             <div class="boulet"><img src="assets/img/icon_users.png" class="img-fluid" alt=""></div>
-                            <div class="i-txt"><span>Grupos pequeños</span> de 5 a 8 integrantes</div>
+                            <div class="i-txt"><span>Grupos pequeños</span> </div>
                         </h5>
                         <h5>
                             <div class="boulet"><img src="assets/img/icon_flexi.png" class="img-fluid" alt=""></div>
@@ -1408,7 +1411,7 @@
 
 
 
-    
+
 
 
 
@@ -1707,6 +1710,32 @@
     <!-- END VENTAJAS -->
 
 
+    <div class="container-fluid premio">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 offset-md-2">
+                    <div class="d-block c-block-bg">
+                        <div class="row">
+                            <div class="col-sm-4 col-md-4 img">
+                                <div class="d-block c-block-sup">
+                                    <div class="c-block">
+                                        <img src="assets/img/premio.png" alt="" class="img-fluid">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-8 col-md-8 txt">
+                                <h3><span>Berlitz</span> ha sido reconocido en el Top 10 </h3>
+                                <p>de proveedores de servicios de capacitación en idiomas en 2024 por la revista HR.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="c-block-bg-after"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
     <!-- TyC -->
     <div class="container-fluid tyc">
         <div class="container c-container">
@@ -1839,8 +1868,6 @@
 
 
 
-
-
     <a href="javascript:click_section('t_header')" class="c-subir"><i class="fa fa-angle-up"></i></a>
 
 
@@ -1910,6 +1937,11 @@
         //    after the API code downloads.
         var player1, player2;
 
+        function sadasdasd() {
+            alert('ddd1');
+            player2.playVideo();
+        }
+
         function onYouTubeIframeAPIReady() {
             // Primer video
             player1 = new YT.Player("player_otg_1", {
@@ -1921,11 +1953,31 @@
             });
 
             // Segundo video
-            player2 = new YT.Player("player_otg_2", {
+            player2 = new YT.Player("bg_video2", {
                 width: "100%",
-                videoId: "-4mbMc6VWaU",
+                videoId: "QpJxABtHPus",
+                playerVars: {
+                    autoplay: 1, // ✅ Reproduce automáticamente
+                    controls: 0, // Opcional: oculta los controles
+                    showinfo: 0,
+                    modestbranding: 1,
+                    loop: 1, // Opcional: loop infinito
+                    playlist: "QpJxABtHPus" // ✅ Necesario para que el loop funcione
+
+                },
                 events: {
-                    onStateChange: onPlayerStateChange2,
+                    onReady: function(event) {
+
+                        event.target.mute();       // 🔇 Asegúrate que esté muteado
+                        event.target.playVideo(); // ▶️ Forzar reproducción
+
+                        document.querySelector("#bg_video").style.opacity = "1";
+                        document.querySelector(".cmln-slider-video").style.background = "none";
+                        //document.getElementById('playVideo2').click();
+                        // autoplay();
+
+                    },
+                    //onStateChange: onPlayerStateChange2,
                 },
             });
         }
@@ -1939,6 +1991,12 @@
         var done1 = false;
         var done2 = false;
 
+        function autoplay() {
+            setInterval(() => {
+                document.getElementById('playVideo2').click();
+            }, 2000); // 2 segundos = 2000 ms
+        }
+
         function onPlayerStateChange1(event) {
             if (event.data == YT.PlayerState.PLAYING && !done1) {
                 done1 = true;
@@ -1949,6 +2007,8 @@
             if (event.data == YT.PlayerState.PLAYING && !done2) {
                 done2 = true;
             }
+            // alert('dddddddddddd11');
+            // player2.playVideo();
         }
 
         function stopVideo1() {
@@ -1958,6 +2018,15 @@
         function stopVideo2() {
             player2.stopVideo();
         }
+
+        function playVideo2() {
+            player2.playVideo();
+        }
+
+
+
+
+
 
         // Detectar apertura y cierre de los modales
         $("#exampleModal").on("shown.bs.modal", function() {
@@ -1975,6 +2044,13 @@
         $("#exampleModal2").on("hidden.bs.modal", function() {
             stopVideo2(); // Detiene el segundo video cuando se cierra el segundo modal
         });
+
+
+        // window.onload = function() {
+        //     setInterval(() => {
+        //         document.getElementById('playVideo2').click();
+        //     }, 2000);
+        // };
     </script>
 
 

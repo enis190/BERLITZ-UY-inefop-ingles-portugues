@@ -3,6 +3,7 @@ $COLOR_1: #004FEF;
 $COLOR_2: #00E790;
 $COLOR_3: #FF495C;
 $COLOR_4: #643BA3;
+$COLOR_5: #ee6300;
 
 /*LOADER*/
 .jm-loadingpage {
@@ -105,6 +106,31 @@ p {
 
   &.force-active-off {
     scale: 0 !important;
+  }
+}
+
+
+
+.modal {
+  .modal-body {
+    padding: 0px;
+  }
+  .modal-content {
+    border: 0px;
+    background-color: transparent;
+  }
+  .modal-header {
+    button {
+      border: 0px;
+      background-color: $COLOR_1;
+      border-radius: 50%;
+      color: #fff;
+      width: 30px;
+      height: 30px;
+    }
+  }
+  iframe {
+    height: 400px;
   }
 }
 

@@ -167,7 +167,7 @@
 
         .hs-submit {
             .hs-button {
-                background-color: $COLOR_3;
+                background-color: $COLOR_5;
                 color: #FFF;
                 border: 0;
                 font-family: 'IBMPlexSans-Bold';
@@ -183,7 +183,7 @@
                 transition: 0.3s;
 
                 &:hover{
-                    background-color: $COLOR_2;
+                    background-color: $COLOR_3;
                 }
             }
         }

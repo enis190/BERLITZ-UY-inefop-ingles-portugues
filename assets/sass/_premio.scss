@@ -1,0 +1,101 @@
+.premio {
+  padding-top: 120px;
+  padding-bottom: 120px;
+  background-color: #fff;
+  .c-block-bg {
+    padding: 25px;
+    border-radius: 20px;
+    background-color: #fff;
+    box-shadow: 8px 8px 25px -9px rgba(0, 0, 0, 0.28);
+    -webkit-box-shadow: 8px 8px 25px -9px rgba(0, 0, 0, 0.28);
+    -moz-box-shadow: 8px 8px 25px -9px rgba(0, 0, 0, 0.28);
+    padding: 40px 30px;
+    .txt {
+      h3 {
+        color: #002691;
+        font-family: "IBMPlexSans-Bold";
+        span {
+          color: #004fef;
+        }
+      }
+      p {
+        color: #002691;
+        font-size: 1.2rem;
+      }
+    }
+    .img {
+      .c-block-sup {
+        position: relative;
+        .c-block {
+          position: absolute;
+          width: 100%;
+          img {
+            margin-top: -125px;
+          }
+        }
+      }
+    }
+  }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .premio {
+    .c-block-bg {
+      .img {
+        .c-block-sup {
+          .c-block {
+            position: relative;
+            img {
+              margin-top: -30px;
+              margin-bottom: 40px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+}
+
+@media screen and (max-width: 768px) and (orientation: landscape) {
+  .premio .c-block-bg .img .c-block-sup .c-block img {
+    margin-top: -25px;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .premio {
+    position: relative;
+    &::after {
+      content: url("../img/after-premio-1.png");
+      position: absolute;
+      right: 5px;
+      top: 5px;
+    }
+    .c-block-bg {
+      z-index: 1;
+      position: relative;
+    }
+    .c-block-bg-after {
+      &::before {
+        content: url("../img/after-premio-2.png");
+        position: absolute;
+        margin-top: -130px;
+        margin-left: -40px;
+      }
+    }
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+}

@@ -123,6 +123,21 @@ p {
   .back-top.force-active-off {
     scale: 0 !important; }
 
+.modal .modal-body {
+  padding: 0px; }
+.modal .modal-content {
+  border: 0px;
+  background-color: transparent; }
+.modal .modal-header button {
+  border: 0px;
+  background-color: #004FEF;
+  border-radius: 50%;
+  color: #fff;
+  width: 30px;
+  height: 30px; }
+.modal iframe {
+  height: 400px; }
+
 /*BLOCK SOCIAL*/
 .block-social {
   background-color: #00E790;
@@ -559,7 +574,7 @@ p {
 
 .btn-1 {
   text-decoration: none;
-  background-color: #FF495C;
+  background-color: #ee6300;
   color: #FFF;
   font-family: 'IBMPlexSans-Regular';
   text-transform: uppercase;
@@ -1749,7 +1764,7 @@ p {
     margin-left: -20px;
     margin-top: 5px; }
   .formulario .c-hs-form .hs-submit .hs-button {
-    background-color: #FF495C;
+    background-color: #ee6300;
     color: #FFF;
     border: 0;
     font-family: 'IBMPlexSans-Bold';
@@ -1762,7 +1777,7 @@ p {
     box-shadow: 10px 10px 14px -10px rgba(0, 0, 0, 0.44);
     transition: 0.3s; }
     .formulario .c-hs-form .hs-submit .hs-button:hover {
-      background-color: #00E790; }
+      background-color: #FF495C; }
   .formulario .c-hs-form .form-columns-2,
   .formulario .c-hs-form .form-columns-1 {
     max-width: 100%; }
@@ -2692,7 +2707,7 @@ p {
     transform: scale(0.85); } }
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 .ventajas {
-  background-color: #F1F6FF; }
+  background-color: #f1f6ff; }
   .ventajas .btn-1 {
     padding-left: 25px; }
     .ventajas .btn-1 .c-fa {
@@ -2708,23 +2723,29 @@ p {
       padding: 20px;
       border-radius: 10px;
       transition: 0.3s;
-      background-color: #FFF; }
+      background-color: #fff;
+      box-shadow: 1px -1px 11px 1px rgba(0, 0, 0, 0.09);
+      -webkit-box-shadow: 1px -1px 11px 1px rgba(0, 0, 0, 0.09);
+      -moz-box-shadow: 1px -1px 11px 1px rgba(0, 0, 0, 0.09); }
       .ventajas .slider .item .c-block:hover {
-        background-color: #FFF; }
+        background-color: #fff; }
       .ventajas .slider .item .c-block img {
         max-height: 120px;
         margin-bottom: 15px; }
       .ventajas .slider .item .c-block h3 {
         color: #778299;
-        font-family: 'IBMPlexSans-SemiBold';
+        font-family: "IBMPlexSans-SemiBold";
         font-size: 1rem;
-        display: inline; }
+        display: inline;
+        color: #002691; }
         .ventajas .slider .item .c-block h3 span {
           color: #004FEF;
-          font-family: 'IBMPlexSans-SemiBoldItalic'; }
+          font-family: "IBMPlexSans-SemiBoldItalic";
+          color: #002691; }
       .ventajas .slider .item .c-block p {
         display: inline;
-        font-size: .9rem; }
+        font-size: 0.9rem;
+        color: #002691; }
         .ventajas .slider .item .c-block p span {
           color: #004FEF; }
   .ventajas .slick-dots li button::before {
@@ -2732,7 +2753,7 @@ p {
     border-radius: 50%;
     width: 13px;
     height: 13px;
-    content: '';
+    content: "";
     transition: 0.3s; }
   .ventajas .slick-dots li.slick-active button::before {
     background-color: #004FEF;
@@ -2745,6 +2766,13 @@ p {
 /* Small devices (portrait tablets and large phones, 600px and up) */
 /* Medium devices (landscape tablets, 768px and up) */
 /* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .ventajas .slider .item {
+    padding-top: 70px; }
+    .ventajas .slider .item .c-block {
+      min-height: 250px; }
+      .ventajas .slider .item .c-block img {
+        margin-top: -60px; } }
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 /* Extra small devices (phones, 600px and down) */
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -2895,6 +2923,64 @@ p {
       content: url(../img/after-video.png);
       scale: 0.8; } }
 /* Large devices (laptops/desktops, 992px and up) */
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+.premio {
+  padding-top: 120px;
+  padding-bottom: 120px;
+  background-color: #fff; }
+  .premio .c-block-bg {
+    padding: 25px;
+    border-radius: 20px;
+    background-color: #fff;
+    box-shadow: 8px 8px 25px -9px rgba(0, 0, 0, 0.28);
+    -webkit-box-shadow: 8px 8px 25px -9px rgba(0, 0, 0, 0.28);
+    -moz-box-shadow: 8px 8px 25px -9px rgba(0, 0, 0, 0.28);
+    padding: 40px 30px; }
+    .premio .c-block-bg .txt h3 {
+      color: #002691;
+      font-family: "IBMPlexSans-Bold"; }
+      .premio .c-block-bg .txt h3 span {
+        color: #004fef; }
+    .premio .c-block-bg .txt p {
+      color: #002691;
+      font-size: 1.2rem; }
+    .premio .c-block-bg .img .c-block-sup {
+      position: relative; }
+      .premio .c-block-bg .img .c-block-sup .c-block {
+        position: absolute;
+        width: 100%; }
+        .premio .c-block-bg .img .c-block-sup .c-block img {
+          margin-top: -125px; }
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .premio .c-block-bg .img .c-block-sup .c-block {
+    position: relative; }
+    .premio .c-block-bg .img .c-block-sup .c-block img {
+      margin-top: -30px;
+      margin-bottom: 40px; } }
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media screen and (max-width: 768px) and (orientation: landscape) {
+  .premio .c-block-bg .img .c-block-sup .c-block img {
+    margin-top: -25px; } }
+/* Medium devices (landscape tablets, 768px and up) */
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .premio {
+    position: relative; }
+    .premio::after {
+      content: url("../img/after-premio-1.png");
+      position: absolute;
+      right: 5px;
+      top: 5px; }
+    .premio .c-block-bg {
+      z-index: 1;
+      position: relative; }
+    .premio .c-block-bg-after::before {
+      content: url("../img/after-premio-2.png");
+      position: absolute;
+      margin-top: -130px;
+      margin-left: -40px; } }
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 
 /*# sourceMappingURL=cmln-style.css.map */
