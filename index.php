@@ -530,7 +530,7 @@
             class="container-fluid cmln-slider cmln-slider-video cmln-slider-video-xs">
             <iframe
                 id="bg_video"
-                src="https://www.youtube.com/embed/QpJxABtHPus?autoplay=1&mute=1&loop=1&playlist=QpJxABtHPus&controls=0&showinfo=0&modestbranding=1"
+                src="https://www.youtube.com/embed/2O8QfLg4dMo?autoplay=1&mute=1&loop=1&playlist=2O8QfLg4dMo&controls=0&showinfo=0&modestbranding=1"
                 frameborder="0"
                 allow="autoplay; encrypted-media"
                 allowfullscreen></iframe>
@@ -1941,7 +1941,7 @@
             // Primer video
             player1 = new YT.Player("player_otg_1", {
                 width: "100%",
-                videoId: "MlinoxpFNOo",
+                videoId: "BrjSi6hXtEo",
                 events: {
                     onStateChange: onPlayerStateChange1,
                 },
