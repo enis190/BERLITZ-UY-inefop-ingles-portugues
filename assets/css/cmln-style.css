@@ -1665,6 +1665,20 @@ p {
   background-color: #004FEF; }
   .formulario .c-hs-form {
     z-index: 1; }
+  .formulario .hs-error-msgs {
+    list-style: none;
+    padding-left: 0px; }
+    .formulario .hs-error-msgs li label {
+      font-family: "IBMPlexSans-Regular";
+      font-size: 0.7rem;
+      opacity: 0.8;
+      font-family: "IBMPlexSans-Regular";
+      color: #fff !important;
+      font-size: 0.7rem;
+      opacity: 0.8;
+      background-color: red;
+      padding: 2px 5px;
+      border-radius: 5px; }
   .formulario .txt::before {
     position: absolute;
     height: 50px;
