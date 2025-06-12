@@ -1696,7 +1696,7 @@
             </div>
             <div class="row mt-4 fade-in-bottom">
                 <div class="col-md-12 text-center">
-                    <a href="javascript:click_section('formulario')" class="btn-1 "><span>¡INSCRIBITE YA!</span> <i
+                    <a href="javascript:click_section('formulario')" class="btn-1 "><span>¡QUIERO APLICAR!</span> <i
                             class="fa-solid fa-arrow-right c-fa"></i></a>
                 </div>
             </div>
