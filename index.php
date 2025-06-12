@@ -528,12 +528,12 @@
         <div
             id="slider_page"
             class="container-fluid cmln-slider cmln-slider-video cmln-slider-video-xs">
-            <iframe
+            <!-- <iframe
                 id="bg_video"
                 src="https://www.youtube.com/embed/2O8QfLg4dMo?autoplay=1&mute=1&loop=1&playlist=2O8QfLg4dMo&controls=0&showinfo=0&modestbranding=1"
                 frameborder="0"
                 allow="autoplay; encrypted-media"
-                allowfullscreen></iframe>
+                allowfullscreen></iframe> -->
             <!-- <div id="bg_video"></div> -->
 
             <div class="content-bg"></div>

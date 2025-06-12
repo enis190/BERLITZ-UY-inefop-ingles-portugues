@@ -1090,6 +1090,8 @@ p {
     margin-right: 15px; } }
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
+  .cmln-slider .content-bg {
+    display: none; }
   .cmln-slider .tp-caption p {
     font-size: 1.3rem; }
   .cmln-slider .tp-caption.caption-1 h3 span {
@@ -1143,6 +1145,8 @@ p {
   .banner_principal_temp {
     margin-top: 50px; } }
 @media only screen and (max-width: 767px) and (orientation: landscape) {
+  .cmln-slider .content-bg {
+    display: none; }
   .cmln-slider.cmln-slider-video iframe {
     display: none; }
   .cmln-slider.cmln-slider-video-xs {
