@@ -3,26 +3,7 @@
     .c-hs-form{
         z-index: 1;
     }
-    .hs-error-msgs {
-        list-style: none;
-        padding-left: 0px;
-
-        li {
-          label {
-            font-family: "IBMPlexSans-Regular";
-            //color: red !important;
-            font-size: 0.7rem;
-            opacity: 0.8;
-            font-family: "IBMPlexSans-Regular";
-            color: #fff !important;
-            font-size: 0.7rem;
-            opacity: 0.8;
-            background-color: red;
-            padding: 2px 5px;
-            border-radius: 5px;
-          }
-        }
-      }
+    
     .txt {
         &::before {
             //content: url('../img/bg_1.png');
@@ -152,7 +133,7 @@
 
                     label {
                         font-family: 'IBMPlexSans-Regular';
-                        color: red !important;
+                        //color: red !important;
                         font-size: .7rem;
                         opacity: .8;
                     }
@@ -214,6 +195,27 @@
         }
 
     }
+
+    .hs-error-msgs {
+        list-style: none;
+        padding-left: 0px;
+
+        li {
+          label {
+            font-family: "IBMPlexSans-Regular";
+            //color: red !important;
+            font-size: 0.7rem;
+            opacity: 0.8;
+            font-family: "IBMPlexSans-Regular";
+            color: #fff !important;
+            font-size: 0.7rem;
+            opacity: 0.8;
+            background-color: red;
+            padding: 2px 5px;
+            border-radius: 5px;
+          }
+        }
+      }
 }
 
 
