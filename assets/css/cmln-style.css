@@ -2056,6 +2056,8 @@ p {
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 .niveles {
   background-color: #F1F6FF; }
+  .niveles h2 {
+    color: #002691; }
   .niveles::after {
     content: url("../img/after-2.png");
     position: absolute;
@@ -2832,6 +2834,10 @@ p {
     color: #002691;
     font-family: 'IBMPlexSans-Regular';
     font-size: 1.1rem; }
+  .textimonio2 p {
+    color: #004fef;
+    font-family: "IBMPlexSans-BoldItalic";
+    font-size: 1.2rem; }
   .textimonio2 .c-play {
     display: flex;
     justify-content: center;

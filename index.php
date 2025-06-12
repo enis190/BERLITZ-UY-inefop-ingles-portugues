@@ -1188,7 +1188,7 @@
         </div>
         <div class="row mt-4 fade-in-bottom">
             <div class="col-md-12 text-center">
-                <a href="javascript:click_section('formulario')" class="btn-1 ">iniciá tu <span>curso ahora</span> <i
+                <a href="javascript:click_section('formulario')" class="btn-1 ">Quiero aplicar al subsidio<i
                         class="fa-solid fa-arrow-right c-fa"></i></a>
             </div>
         </div>
@@ -1201,16 +1201,7 @@
         <div class="container c-container">
             <div class="row head fade-in">
                 <div class="col-12 text-center">
-                    <h2>Los niveles <div class="d-none">Berlitz</div>
-                        <div class="c-img">
-                            <picture>
-                                <!-- <source srcset="assets/img/logo.webp" type="image/webp"> -->
-                                <source srcset="assets/img/berlitz-logo-2.png" type="image/png">
-                                <img class="img-fluid" data-src="assets/img/berlitz-logo-2.png" loading="lazy">
-                            </picture>
-                        </div>
-                        <br>
-                        MCER
+                    <h2>Los niveles Berlitz MCER
                     </h2>
                 </div>
             </div>
@@ -1462,6 +1453,10 @@
                         aprendé el idioma que tu vida necesita, a través de un curso 100% subsidiado*.<br>
                         ¡Cambiá tu historia!
                     </h4>
+                    <p>Dale play aquí
+                        <i class="fa-solid fa-circle-arrow-right d-none d-md-inline "></i>
+                        <i class="fa-solid fa-circle-arrow-down d-inline d-md-none"></i>
+                    </p>
                     <!-- <p>
                         Cada testimonio es un viaje único de aprendizaje, diversión y
                         descubrimiento. Nuestros alumnos comparten cómo el aprendizaje del
