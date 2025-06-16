@@ -279,9 +279,9 @@
                 <div class="col-12 item ">
                     <a href="javascript:click_section('promos')" class="i_menu menu_1 ">Requisitos</a>
                 </div>
-                <div class="col-12 item ">
+                <!-- <div class="col-12 item ">
                     <a href="javascript:click_section('viaje')" class="i_menu menu_2 ">plan de aprendizaje</a>
-                </div>
+                </div> -->
                 <div class="col-12 item ">
                     <a href="javascript:click_section('acerca')" class="i_menu menu_3 ">programa</a>
                 </div>
