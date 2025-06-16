@@ -303,7 +303,7 @@
                         inglés</a>
                 </div>
                 <div class="col-12 item ">
-                    <a href="javascript:click_section('formulario')" class="i_menu menu_9 ">¡Quiero aplicar!</a>
+                    <a href="javascript:click_section('formulario')" class="i_menu menu_9 "><b>¡Quiero aplicar!</b></a>
                 </div>
             </div>
         </div>
