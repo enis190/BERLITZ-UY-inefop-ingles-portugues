@@ -1453,7 +1453,7 @@
                         aprendé el idioma que tu vida necesita, a través de un curso 100% subsidiado*.<br>
                         ¡Cambiá tu historia!
                     </h4>
-                    <p>Dale play aquí
+                    <p>Dale play acá
                         <i class="fa-solid fa-circle-arrow-right d-none d-md-inline "></i>
                         <i class="fa-solid fa-circle-arrow-down d-inline d-md-none"></i>
                     </p>
