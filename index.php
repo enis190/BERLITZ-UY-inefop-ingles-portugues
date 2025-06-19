@@ -288,7 +288,7 @@
                 <div class="col-12 item ">
                     <a href="javascript:click_section('niveles')" class="i_menu menu_4 ">Niveles</a>
                 </div>
-                
+
                 <div class="col-12 item ">
                     <a href="javascript:click_section('testimonios')" class="i_menu menu_6 ">Video</a>
                 </div>
@@ -816,7 +816,7 @@
                         </li>
                         <li><a href="javascript:click_section('acerca')" class="i_menu menu_3 ">programa</a></li>
                         <li><a href="javascript:click_section('niveles')" class="i_menu menu_4 ">Niveles</a></li>
-                        
+
                         <li><a href="javascript:click_section('testimonios')" class="i_menu menu_6 ">Video</a>
                         </li>
                         <li><a href="javascript:click_section('metodo')" class="i_menu menu_5 ">Método</a></li>
@@ -1749,7 +1749,8 @@
                                 data-bs-parent="#accordionExample1">
                                 <div class="accordion-body">
                                     * La postulación al subsidio se realizará a través de la página <a style="color: #FFF;" href="https://www.inefop.uy" target="_blank">https://www.inefop.uy</a> y está sujeta a condiciones y restricciones por parte de INEFOP, que serán detalladas durante el proceso de aplicación. La postulación dependerá además de los cupos y niveles disponibles. Pueden postularse personas entre 18 y 65 años, desempleadas con o sin seguro de desempleo, y trabajadores en actividad con un salario menor a 15 BPC.
-
+                                    <br>
+                                    *Válido hasta el 27/06/2025.
 
 
 
@@ -1963,7 +1964,7 @@
                 events: {
                     onReady: function(event) {
 
-                        event.target.mute();       // 🔇 Asegúrate que esté muteado
+                        event.target.mute(); // 🔇 Asegúrate que esté muteado
                         event.target.playVideo(); // ▶️ Forzar reproducción
 
                         document.querySelector("#bg_video").style.opacity = "1";
