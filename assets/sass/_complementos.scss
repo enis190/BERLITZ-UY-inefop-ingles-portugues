@@ -1,6 +1,7 @@
 .titulo-1 {
     font-family: 'IBMPlexSans-SemiBold';
     color: #0C0C6C;
+
     span {
         font-family: 'IBMPlexSans-SemiBoldItalic';
     }
@@ -22,19 +23,58 @@
     }
 }
 
+
+
+.titulo-3 {
+    // font-family: 'MyriadPro-Regular_0';
+    font-family: 'TTFirsNeue-Regular';
+    font-size: 1.8rem !important;
+    margin-bottom: 20px;
+    color: #fff;
+
+    span {
+        color: $COLOR_1;
+    }
+
+    sup {
+        font-size: .9rem;
+    }
+}
+
+
+.titulo-4 {
+    // font-family: 'MyriadPro-Regular_0';
+    font-family: 'IBMPlexSans-Regular';
+    font-size: 2rem !important;
+    margin-bottom: 20px;
+    color: #fff;
+
+    span {
+        font-family: 'IBMPlexSans-BoldItalic'; 
+        &.font-1{
+            font-family: 'IBMPlexSans-Light'; 
+            font-size: 1.2rem !important;
+        }
+    }
+
+}
+
 .btn-1 {
     text-decoration: none;
     background-color: $COLOR_5;
     color: #FFF;
     font-family: 'IBMPlexSans-Regular';
-    text-transform: uppercase;
+    font-family: 'IBMPlexSans-Bold';
+    //text-transform: uppercase;
     font-size: 1rem;
     transition: 0.3s !important;
     padding: 13px 17px;
     -webkit-box-shadow: 2px 4px 8px -4px rgba(0, 0, 0, 0.48);
     -moz-box-shadow: 2px 4px 8px -4px rgba(0, 0, 0, 0.48);
     box-shadow: 2px 4px 8px -4px rgba(0, 0, 0, 0.48);
-    border-radius: 7px;
+    border-radius: 50px;
+    background: #FF9A4C;
+    background: linear-gradient(172deg, rgba(255, 154, 76, 1) 0%, rgba(255, 73, 73, 1) 100%);
 
     span {
         font-family: 'IBMPlexSans-Bold';
@@ -42,7 +82,11 @@
 
 
     &:hover {
-        background-color: $COLOR_2;
+        //background-color: $COLOR_2;
+    }
+    i {
+      margin-left: 10px;
+      font-size: 1.2rem;
     }
 }
 
