@@ -3647,6 +3647,9 @@ p span {
     background-image: url("../img/bg-video-2-xs.png");
     background-size: cover;
   }
+  .textimonio2 .txt {
+    padding: 30px 25px;
+  }
 }
 @media screen and (max-width: 767px) and (orientation: landscape) {
   /* Estilos específicos para celulares en horizontal */
