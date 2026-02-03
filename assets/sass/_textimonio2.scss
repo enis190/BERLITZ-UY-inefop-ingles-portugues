@@ -1,28 +1,77 @@
 .textimonio2 {
-  padding-top: 70px;
-  padding-bottom: 70px;
+  // padding-top: 70px;
+  // padding-bottom: 70px;
   background-color: #eff6ff;
 
   //background-size: 100% 100%;
   background-size: cover;
   background-position: center;
-  h2{
+
+  h2 {
     color: #002691;
-    font-family: 'IBMPlexSans-Bold'; 
+    font-family: 'IBMPlexSans-Bold';
   }
+
   h4 {
     color: #002691;
     font-family: 'IBMPlexSans-Regular';
     font-size: 1.1rem;
   }
-  p{
+
+  p {
     color: #004fef;
     font-family: "IBMPlexSans-BoldItalic";
     font-size: 1.2rem;
   }
 
+  .slick-slider {
+    margin-bottom: 0px !important;
+
+    .slick-dots {
+      bottom: 15px;
+      
+    }
+
+    .slick-next {
+      right: 40px;
+
+      &::before {
+        font-family: 'FontAwesome';
+        content: '\f105';
+        font-size: 3rem;
+        opacity: 1;
+        color: #FFF !important;
+      }
+    }
+
+    .slick-prev {
+      left: 25px;
+      z-index: 1;
+      &::before {
+        font-family: 'FontAwesome';
+        content: '\f104';
+        font-size: 3rem;
+        opacity: 1;
+        color: #FFF !important;
+      }
+    }
+  }
+
+  .slick-dots li button:before{
+    font-size: 15px;
+    color: #FFF;
+  }
+  .slick-dots li.slick-active button:before{
+    color: #FFF;
+  }
+
+  .item {
+    height: 450px;
+    background-color: blue;
+  }
+
   .c-play {
-    display: flex;
+    display: flex !important;
     justify-content: center;
     align-items: center;
   }
@@ -65,6 +114,7 @@
       color: #fff;
     }
   }
+
   .c-pulse-2 {
     -webkit-animation-delay: 0.9s;
     -moz-animation-delay: 0.9s;
@@ -83,60 +133,62 @@
 }
 
 @-webkit-keyframes ripple {
-    70% {
-      box-shadow: 0 0 0 50px rgba(253, 167, 0, 0);
-    }
-  
-    100% {
-      box-shadow: 0 0 0 0 rgba(253, 167, 0, 0);
-    }
+  70% {
+    box-shadow: 0 0 0 50px rgba(253, 167, 0, 0);
   }
-  
-  @keyframes ripple {
-    70% {
-      box-shadow: 0 0 0 50px rgba(253, 167, 0, 0);
-    }
-  
-    100% {
-      box-shadow: 0 0 0 0 rgba(253, 167, 0, 0);
-    }
+
+  100% {
+    box-shadow: 0 0 0 0 rgba(253, 167, 0, 0);
   }
+}
+
+@keyframes ripple {
+  70% {
+    box-shadow: 0 0 0 50px rgba(253, 167, 0, 0);
+  }
+
+  100% {
+    box-shadow: 0 0 0 0 rgba(253, 167, 0, 0);
+  }
+}
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-  .textimonio2{
+  .textimonio2 {
     .c-play {
       height: 200px;
       background-image: url('../img/bg-video-2-xs.png');
-      background-size:cover;
+      background-size: cover;
     }
   }
 }
 
 @media screen and (max-width: 767px) and (orientation: landscape) {
+
   /* Estilos específicos para celulares en horizontal */
-  .textimonio2{
+  .textimonio2 {
     .c-play {
       height: 250px;
       background-image: url('../img/bg-video-2-xs.png');
-      background-size:cover;
+      background-size: cover;
     }
   }
 }
 
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
-}
+@media only screen and (min-width: 600px) {}
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
   .textimonio2 {
-    padding-top: 200px;
-    padding-bottom: 200px;
-    background-image: url("../img/bg-video-2.png");
+    // padding-top: 200px;
+    // padding-bottom: 200px;
+    //background-image: url("../img/bg-video-2.png");
+    background-color: red;
     position: relative;
-    &::after{
+
+    &::after {
       position: absolute;
       top: 50px;
       left: 50px;
@@ -147,9 +199,7 @@
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
-}
+@media only screen and (min-width: 992px) {}
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
-}
+@media only screen and (min-width: 1200px) {}

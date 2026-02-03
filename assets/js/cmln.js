@@ -205,6 +205,7 @@ $("#btn-menu-xs-cerrar").click(function () {
     $('#div_menu_xs').removeClass('active');
 });
 $("#btn-menu-xs-abrir").click(function () {
+    //alert('ok');
     $('#div_menu_xs').addClass('active');
 });
 
