@@ -1,45 +1,63 @@
 .typ {
-    background-image: url('../img/typ.jpg');
-    background-image: -webkit-image-set(url('../img/typ.webp')1x);
+    min-height: 100vh;
+    /* alto mínimo = alto de la pantalla */
+    background-color: #004FEF;
+    background-image: url("https://9068661.fs1.hubspotusercontent-na1.net/hubfs/9068661/assets/img/HEAD-TY.png");
     background-size: cover;
-    #header_page{
-        background-color:  transparent;
+    /* llena el área */
+    background-position: center;
+    /* centra la imagen */
+    background-repeat: no-repeat;
+    /* no tile */
+
+    .txt{
+        padding-top: 150px;
     }
-    .back-top{
-        display: none !important;
+
+    /* Que el bloque ocupe el alto de la pantalla */
+    .c-cont {
+        min-height: 100vh;
     }
-    h1{
-        color: #FFF;
-        font-family: 'OpenSans-Light';  
-        span{
-            display: block;
-            font-family: 'OpenSans-Light';  
-        }
+
+    /* Asegura que la row estire a la altura del contenedor */
+    .c-cont .row {
+        min-height: 100vh;
     }
-    p{
-        color: #FFF;
+
+    /* Columna derecha: mandar el contenido al fondo */
+    .col-md-7.img {
+        display: flex;
+        align-items: flex-end;
+        /* abajo */
+        justify-content: flex-end;
+        /* opcional: derecha */
     }
-    .btn{
-        background-color: $COLOR_1;
-        color: #000;
-        border-radius: 3px;
-        font-family: 'OpenSans-Regular';  
-        padding-left: 30px;
-        padding-right: 30px;
-        margin-right: 15px;
+
+    /* Para que la imagen no se “pase” y mantenga responsivo */
+    .col-md-7.img img {
+        max-height: 100vh;
+        /* opcional, por si es muy alta */
+        width: auto;
     }
+
+
 }
 
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {}
+@media only screen and (max-width: 600px) {
+    .typ{
+        background-image: url(https://9068661.fs1.hubspotusercontent-na1.net/hubfs/9068661/assets/img/HEAD-TY-1.png);
+        min-height: 80vh;
+    }
+}
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {}
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-    .typ{
-        .c-body{
+    .typ {
+        .c-body {
             margin-top: 200px;
         }
     }
