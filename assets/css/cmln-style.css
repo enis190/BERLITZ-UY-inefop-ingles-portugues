@@ -3587,8 +3587,8 @@ p span {
   background-color: #000;
 }
 .textimonio2 .item.item-1 {
-  background-image: url(https://9068661.fs1.hubspotusercontent-na1.net/hubfs/9068661/assets/img/Mask%20group.png);
-  background-size: 100%;
+  background-image: url(https://9068661.fs1.hubspotusercontent-na1.net/hubfs/9068661/assets/img/THUMBS%20VIDEO_01.png);
+  background-size: cover;
 }
 .textimonio2 .c-play {
   display: flex !important;
@@ -3669,7 +3669,6 @@ p span {
 @media only screen and (max-width: 600px) {
   .textimonio2 .c-play {
     height: 200px;
-    background-image: url("../img/bg-video-2-xs.png");
     background-size: cover;
   }
   .textimonio2 .txt {
@@ -3680,7 +3679,6 @@ p span {
   /* Estilos específicos para celulares en horizontal */
   .textimonio2 .c-play {
     height: 250px;
-    background-image: url("../img/bg-video-2-xs.png");
     background-size: cover;
   }
 }
