@@ -3590,6 +3590,14 @@ p span {
   background-image: url(https://9068661.fs1.hubspotusercontent-na1.net/hubfs/9068661/assets/img/THUMBS%20VIDEO_01.png);
   background-size: cover;
 }
+.textimonio2 .item.item-2 {
+  background-image: url(https://9068661.fs1.hubspotusercontent-na1.net/hubfs/9068661/assets/img/Mask%20group-1.png);
+  background-size: cover;
+}
+.textimonio2 .item.item-3 {
+  background-image: url(https://9068661.fs1.hubspotusercontent-na1.net/hubfs/9068661/assets/img/THUMBS%20VIDEO_01-1.png);
+  background-size: cover;
+}
 .textimonio2 .c-play {
   display: flex !important;
   justify-content: center;
